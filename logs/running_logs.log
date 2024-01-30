@@ -21,3 +21,30 @@
 [2023-10-20 19:53:59,140: INFO: common:created directory at: artifacts/data_ingestion]
 [2023-10-20 19:53:59,142: INFO: 4182046305:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
 [2023-10-20 19:54:09,201: INFO: 4182046305:Downloaded data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-01-07 01:51:29,140: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-01-07 01:51:29,164: ERROR: main:'DataIngestionTrainingPipeline' object has no attribute 'main']
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\main.py", line 14, in <module>
+    data_ingestion.main()
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'main'
+[2024-01-07 01:54:27,611: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-01-07 01:54:27,626: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-01-07 01:54:27,626: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-01-07 01:54:27,626: INFO: common:created directory at: artifacts]
+[2024-01-07 01:54:27,626: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-01-07 01:54:27,626: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-01-07 01:54:39,210: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-01-07 01:54:40,498: INFO: main:>>>>>> stage Data Ingestion stage completed successfully <<<<<
+
+x=======x]
+[2024-01-07 01:58:48,196: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-01-07 01:58:48,196: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-01-07 01:58:48,196: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-01-07 01:58:48,243: INFO: common:created directory at: artifacts]
+[2024-01-07 01:58:48,243: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-01-07 01:58:48,249: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-01-07 01:58:59,462: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-01-07 01:59:00,321: INFO: main:>>>>>> stage Data Ingestion stage completed successfully <<<<<
+
+x=======x]
