@@ -48,3 +48,134 @@ x=======x]
 [2024-01-07 01:59:00,321: INFO: main:>>>>>> stage Data Ingestion stage completed successfully <<<<<
 
 x=======x]
+ [2024-03-05 00:27:36,071: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:27:36,378: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:27:36,381: INFO: common:created directory at: artifacts]
+[2024-03-05 00:30:29,957: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:30:29,961: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:30:29,963: INFO: common:created directory at: artifacts]
+[2024-03-05 00:30:29,965: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 00:32:10,334: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:32:10,341: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:32:10,342: INFO: common:created directory at: artifacts]
+[2024-03-05 00:32:10,343: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 00:35:23,592: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:35:23,594: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:35:23,595: INFO: common:created directory at: artifacts]
+[2024-03-05 00:35:23,596: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 00:39:22,063: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:39:22,065: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:39:22,067: INFO: common:created directory at: artifacts]
+[2024-03-05 00:39:22,067: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 00:39:49,159: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:39:49,161: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:39:49,162: INFO: common:created directory at: artifacts]
+[2024-03-05 00:39:49,164: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 00:40:02,006: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-05 00:40:54,652: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:40:54,654: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:40:54,655: INFO: common:created directory at: artifacts]
+[2024-03-05 00:40:54,657: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 00:40:55,068: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-05 00:41:15,044: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:41:15,047: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:41:15,049: INFO: common:created directory at: artifacts]
+[2024-03-05 00:41:15,050: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 00:41:15,556: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-05 00:43:58,950: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:43:58,952: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:43:58,953: INFO: common:created directory at: artifacts]
+[2024-03-05 00:43:58,988: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 00:43:59,367: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-05 00:44:06,651: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:44:06,654: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:44:06,655: INFO: common:created directory at: artifacts]
+[2024-03-05 00:44:06,656: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 00:44:07,104: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-05 00:47:17,080: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 00:47:17,083: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 00:47:17,083: INFO: common:created directory at: artifacts]
+[2024-03-05 00:47:17,084: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 00:47:17,522: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-05 11:41:51,352: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-03-05 11:41:51,379: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 11:41:51,388: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 11:41:51,389: INFO: common:created directory at: artifacts]
+[2024-03-05 11:41:51,389: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-03-05 11:41:51,390: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-05 11:41:53,631: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-05 11:41:53,633: ERROR: main:[Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\main.py", line 15, in <module>
+    data_ingestion.main()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 20, in main
+    data_ingestion.extract_zip_file()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\data_ingestion.py", line 41, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\zipfile.py", line 1286, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-03-05 12:03:29,139: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-03-05 12:03:29,140: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 12:03:29,141: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 12:03:29,142: INFO: common:created directory at: artifacts]
+[2024-03-05 12:03:29,142: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-03-05 12:03:29,143: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-05 12:03:31,052: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-05 12:03:31,053: ERROR: main:[Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\main.py", line 15, in <module>
+    data_ingestion.main()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 20, in main
+    data_ingestion.extract_zip_file()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\data_ingestion.py", line 41, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\zipfile.py", line 1286, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-03-05 12:16:23,191: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-03-05 12:16:23,192: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 12:16:23,194: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 12:16:23,194: INFO: common:created directory at: artifacts]
+[2024-03-05 12:16:23,195: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-03-05 12:16:23,195: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-05 12:16:34,308: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-05 12:16:35,267: INFO: main:>>>>>> stage Data Ingestion stage completed successfully <<<<<
+
+x=======x]
+[2024-03-05 12:16:35,269: INFO: main:************]
+[2024-03-05 12:16:35,269: INFO: main:>>>>>> stage Prepare base model started <<<<<<]
+[2024-03-05 12:16:35,270: ERROR: main:name 'CongigurationManager' is not defined]
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\main.py", line 30, in <module>
+    obj.main()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 20, in main
+    raise e
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 14, in main
+    config = CongigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'CongigurationManager' is not defined
+[2024-03-05 12:19:35,943: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-03-05 12:19:35,945: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 12:19:35,946: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 12:19:35,947: INFO: common:created directory at: artifacts]
+[2024-03-05 12:19:35,947: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-03-05 12:19:35,948: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-05 12:19:45,486: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-05 12:19:46,278: INFO: main:>>>>>> stage Data Ingestion stage completed successfully <<<<<
+
+x=======x]
+[2024-03-05 12:19:46,280: INFO: main:************]
+[2024-03-05 12:19:46,280: INFO: main:>>>>>> stage Prepare base model started <<<<<<]
+[2024-03-05 12:19:46,285: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-05 12:19:46,289: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-05 12:19:46,291: INFO: common:created directory at: artifacts]
+[2024-03-05 12:19:46,292: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-05 12:19:49,401: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-05 12:19:50,625: INFO: main:>>>>> stage Prepare base model completed <<<<<< 
+
+ x==========x]

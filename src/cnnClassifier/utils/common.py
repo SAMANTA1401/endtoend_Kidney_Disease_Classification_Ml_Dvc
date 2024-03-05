@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from cnnClassifier import logger
+from src.cnnClassifier import logger
 import json
 import joblib
 from ensure import ensure_annotations
@@ -14,7 +14,7 @@ import base64
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """read yaml file and returns
-
+ 
     Args:
         path_to_yaml(str):path like input
 
@@ -30,7 +30,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
             logger.info(f"yaml file: {path_to_yaml} loaded successfully")
-            return ConfigBox(content)
+            return ConfigBox(content) ##root_dir=config.root_dir,source_URL = config.source_URL,local_data_file = config.local_data_file,unzip_dir = config.unzip_dir
     except BoxValueError:
         raise Exception("yaml file has no value")
     except Exception as e:
@@ -49,6 +49,7 @@ def create_directories(path_to_directories: list, verbose=True):
         os.makedirs(path, exist_ok=True)
         if verbose:
             logger.info(f"created directory at: {path}")
+            
 @ensure_annotations
 def save_json(path: Path, data: dict):
     """save dictionary into a json file
@@ -56,8 +57,8 @@ def save_json(path: Path, data: dict):
     path (Path): path where the json file will be saved
     data (dict): data that needs to be stored in json format
     """
-    with open(path,"w") as f:
-        json.dump(data,f,format=4)
+    with open(path,"w") as f: #write mode
+        json.dump(data,f,format=4) ##The `json.dump()` function is used to write JSON data to a file. The `data` parameter contains the JSON data you want to write, while `f` is the file object where you want to write the JSON data. The `format=4` parameter specifies the indentation level for formatting the JSON output. In this case, `format=4` means the JSON data will be indented with 4 spaces for readability.
 
     logger.info(f"json file saved at: {path}")
 
@@ -112,11 +113,14 @@ def get_size(path:Path) -> str:
     return f"~{size_in_kb} kb"
 
 def decodeImage(imgstring,filename):
-    imgdata = base64.b64decode(imgstring)
-    with open(filename, 'wb') as f:
+    imgdata = base64.b64decode(imgstring)  ##This line of code decodes the base64 encoded string `imgstring` into binary data and assigns it to the variable `imgdata`. This is commonly used when dealing with images encoded in base64 format, as it allows you to convert the encoded data back into its original binary form for further processing or display.
+    with open(filename, 'wb') as f: #write in binary mode
         f.write(imgdata)
         f.close()
 
 def encodeImageIntoBase64(croppedImagePath):
-    with open(croppedImagePath, "rb") as f:
+    with open(croppedImagePath, "rb") as f: #read in binary mode
         return base64.b64decode(f.read())
+
+##A binary file is a type of computer file that stores data in a format composed of 0s and 1s, representing different types of information. Unlike text files, which store data using characters, binary files store data in a form that is directly understandable by the computer's hardware.
+##Binary files can contain any type of data, including text, images, audio, video, executables, or any other type of information. Because binary files store data in a raw format, they are often more compact and efficient than text files, especially for storing complex data structures or multimedia content.

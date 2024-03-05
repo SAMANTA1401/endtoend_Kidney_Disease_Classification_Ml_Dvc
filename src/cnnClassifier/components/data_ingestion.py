@@ -1,10 +1,10 @@
 import os
 import zipfile
 import gdown
-from cnnClassifier import  logger
-from cnnClassifier.utils.common import get_size
+from src.cnnClassifier import  logger
+from src.cnnClassifier.utils.common import get_size
 
-from cnnClassifier.entity.config_entity import DataIngestionConfig
+from src.cnnClassifier.entity.config_entity import DataIngestionConfig
 
 
 class DataIngestion:
@@ -21,6 +21,7 @@ class DataIngestion:
             logger.info(f"Downloading data from {dataset_url} into file {zip_download_dir}")
 
             file_id = dataset_url.split("/")[-2]
+            ##pip install --upgrade --no-cache-dir gdown
             prefix = 'https://drive.google.com/uc?export=download&id='
             gdown.download(prefix+file_id, zip_download_dir)
 
