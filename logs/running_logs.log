@@ -262,3 +262,329 @@ x=======x]
 [2024-03-06 12:56:23,226: INFO: main:>>>>>> stage Training completed <<<<<<
 
  x=========x]
+[2024-03-06 19:10:57,363: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:10:57,423: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:10:57,426: INFO: common:created directory at: artifacts]
+[2024-03-06 19:11:22,566: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:11:22,568: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:11:22,570: INFO: common:created directory at: artifacts]
+[2024-03-06 19:11:33,059: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:11:33,062: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:11:33,064: INFO: common:created directory at: artifacts]
+[2024-03-06 19:15:26,327: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:15:26,331: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:15:26,333: INFO: common:created directory at: artifacts]
+[2024-03-06 19:17:19,408: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:17:19,411: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:17:19,430: INFO: common:created directory at: artifacts]
+[2024-03-06 19:22:27,760: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:22:27,763: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:22:27,764: INFO: common:created directory at: artifacts]
+[2024-03-06 19:30:56,239: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:30:56,243: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:30:56,244: INFO: common:created directory at: artifacts]
+[2024-03-06 19:31:04,995: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:31:04,998: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:31:04,998: INFO: common:created directory at: artifacts]
+[2024-03-06 19:31:59,446: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:31:59,449: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:31:59,450: INFO: common:created directory at: artifacts]
+[2024-03-06 19:56:10,876: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:56:10,878: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:56:10,879: INFO: common:created directory at: artifacts]
+[2024-03-06 19:57:31,142: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 19:57:31,149: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 19:57:31,151: INFO: common:created directory at: artifacts]
+[2024-03-06 20:10:19,443: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 20:10:19,446: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 20:10:19,447: INFO: common:created directory at: artifacts]
+[2024-03-06 20:10:56,012: INFO: common:json file saved at: scores.json]
+[2024-03-06 20:12:02,073: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-03-06 20:12:03,253: INFO: builder_impl:Assets written to: C:\Users\lenovo\AppData\Local\Temp\tmp14d0ozh9\model\data\model\assets]
+[2024-03-06 21:17:32,354: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-03-06 21:17:32,357: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:17:32,359: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:17:32,360: INFO: common:created directory at: artifacts]
+[2024-03-06 21:17:32,360: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-03-06 21:17:32,361: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-06 21:17:35,194: ERROR: main:Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?export=download&id=1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1
+
+but Gdown can't. Please check connections and permissions.]
+Traceback (most recent call last):
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 253, in download
+    url = get_url_from_gdrive_confirmation(res.text)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 54, in get_url_from_gdrive_confirmation
+    raise FileURLRetrievalError(
+gdown.exceptions.FileURLRetrievalError: Cannot retrieve the public link of the file. You may need to change the permission to 'Anyone with the link', or have had many accesses. Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\main.py", line 17, in <module>
+    data_ingestion.main()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 19, in main
+    data_ingestion.download_file()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\data_ingestion.py", line 31, in download_file
+    raise e
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\data_ingestion.py", line 26, in download_file
+    gdown.download(prefix+file_id, zip_download_dir)
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 264, in download
+    raise FileURLRetrievalError(message)
+gdown.exceptions.FileURLRetrievalError: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?export=download&id=1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1
+
+but Gdown can't. Please check connections and permissions.
+[2024-03-06 21:19:36,060: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-03-06 21:19:36,062: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:19:36,064: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:19:36,064: INFO: common:created directory at: artifacts]
+[2024-03-06 21:19:36,065: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-03-06 21:19:36,065: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-06 21:19:45,192: ERROR: main:Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?export=download&id=1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1
+
+but Gdown can't. Please check connections and permissions.]
+Traceback (most recent call last):
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 253, in download
+    url = get_url_from_gdrive_confirmation(res.text)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 54, in get_url_from_gdrive_confirmation
+    raise FileURLRetrievalError(
+gdown.exceptions.FileURLRetrievalError: Cannot retrieve the public link of the file. You may need to change the permission to 'Anyone with the link', or have had many accesses. Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\main.py", line 17, in <module>
+    data_ingestion.main()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 19, in main
+    data_ingestion.download_file()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\data_ingestion.py", line 31, in download_file
+    raise e
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\data_ingestion.py", line 26, in download_file
+    gdown.download(prefix+file_id, zip_download_dir)
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 264, in download
+    raise FileURLRetrievalError(message)
+gdown.exceptions.FileURLRetrievalError: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?export=download&id=1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1
+
+but Gdown can't. Please check connections and permissions.
+[2024-03-06 21:25:31,930: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-03-06 21:25:31,932: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:25:31,933: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:25:31,934: INFO: common:created directory at: artifacts]
+[2024-03-06 21:25:31,934: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-03-06 21:25:31,935: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-06 21:25:34,917: ERROR: main:Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?export=download&id=1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1
+
+but Gdown can't. Please check connections and permissions.]
+Traceback (most recent call last):
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 253, in download
+    url = get_url_from_gdrive_confirmation(res.text)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 54, in get_url_from_gdrive_confirmation
+    raise FileURLRetrievalError(
+gdown.exceptions.FileURLRetrievalError: Cannot retrieve the public link of the file. You may need to change the permission to 'Anyone with the link', or have had many accesses. Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\main.py", line 17, in <module>
+    data_ingestion.main()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 19, in main
+    data_ingestion.download_file()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\data_ingestion.py", line 31, in download_file
+    raise e
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\data_ingestion.py", line 26, in download_file
+    gdown.download(prefix+file_id, zip_download_dir)
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 264, in download
+    raise FileURLRetrievalError(message)
+gdown.exceptions.FileURLRetrievalError: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?export=download&id=1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1
+
+but Gdown can't. Please check connections and permissions.
+[2024-03-06 21:37:36,023: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-03-06 21:37:36,025: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:37:36,027: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:37:36,028: INFO: common:created directory at: artifacts]
+[2024-03-06 21:37:36,029: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-03-06 21:37:36,029: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-06 21:37:38,347: ERROR: main:Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?export=download&id=1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1
+
+but Gdown can't. Please check connections and permissions.]
+Traceback (most recent call last):
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 253, in download
+    url = get_url_from_gdrive_confirmation(res.text)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 54, in get_url_from_gdrive_confirmation
+    raise FileURLRetrievalError(
+gdown.exceptions.FileURLRetrievalError: Cannot retrieve the public link of the file. You may need to change the permission to 'Anyone with the link', or have had many accesses. Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\main.py", line 17, in <module>
+    data_ingestion.main()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 19, in main
+    data_ingestion.download_file()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\data_ingestion.py", line 31, in download_file
+    raise e
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\data_ingestion.py", line 26, in download_file
+    gdown.download(prefix+file_id, zip_download_dir)
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\gdown\download.py", line 264, in download
+    raise FileURLRetrievalError(message)
+gdown.exceptions.FileURLRetrievalError: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?export=download&id=1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1
+
+but Gdown can't. Please check connections and permissions.
+[2024-03-06 21:38:32,148: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-03-06 21:38:32,150: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:38:32,152: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:38:32,153: INFO: common:created directory at: artifacts]
+[2024-03-06 21:38:32,153: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-03-06 21:38:32,154: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-06 21:38:47,235: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-06 21:38:48,087: INFO: main:>>>>>> stage Data Ingestion stage completed successfully <<<<<
+
+x=======x]
+[2024-03-06 21:38:48,087: INFO: main:************]
+[2024-03-06 21:38:48,088: INFO: main:>>>>>> stage Prepare base model started <<<<<<]
+[2024-03-06 21:38:48,089: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:38:48,091: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:38:48,091: INFO: common:created directory at: artifacts]
+[2024-03-06 21:38:48,091: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-06 21:38:48,842: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-06 21:38:49,856: INFO: main:>>>>> stage Prepare base model completed <<<<<< 
+
+ x==========x]
+[2024-03-06 21:38:49,857: INFO: main:*****************]
+[2024-03-06 21:38:49,858: INFO: main:>>>>> stage Training started <<<<<<<]
+[2024-03-06 21:38:49,862: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:38:49,866: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:38:49,868: INFO: common:created directory at: artifacts]
+[2024-03-06 21:38:49,869: INFO: common:created directory at: artifacts\training]
+[2024-03-06 21:40:59,997: INFO: main:>>>>>> stage Training completed <<<<<<
+
+ x=========x]
+[2024-03-06 21:40:59,998: INFO: main:*********************]
+[2024-03-06 21:40:59,998: INFO: main:>>>>>>>> stage Evaluation stage started <<<<<<<<]
+[2024-03-06 21:41:00,007: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:41:00,011: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:41:00,014: INFO: common:created directory at: artifacts]
+[2024-03-06 21:41:38,656: ERROR: main:name 'save_json' is not defined]
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\main.py", line 55, in <module>
+    model_evaluation.main()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 15, in main
+    evaluation.evaluation()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\model_evaluation_mlflow.py", line 43, in evaluation
+    self.save_score()
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\components\model_evaluation_mlflow.py", line 47, in save_score
+    save_json(path=Path("scores.json"), data=scores)
+    ^^^^^^^^^
+NameError: name 'save_json' is not defined
+[2024-03-06 21:43:14,630: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<]
+[2024-03-06 21:43:14,633: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:43:14,635: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:43:14,636: INFO: common:created directory at: artifacts]
+[2024-03-06 21:43:14,637: INFO: common:created directory at: artifacts/data_ingestion]
+[2024-03-06 21:43:14,637: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-06 21:43:31,904: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1tsyRtl3joEDI0wxU45PfeHb4_t-XRRK1/view?usp=share_link into file artifacts/data_ingestion/data.zip]
+[2024-03-06 21:43:32,538: INFO: main:>>>>>> stage Data Ingestion stage completed successfully <<<<<
+
+x=======x]
+[2024-03-06 21:43:32,538: INFO: main:************]
+[2024-03-06 21:43:32,538: INFO: main:>>>>>> stage Prepare base model started <<<<<<]
+[2024-03-06 21:43:32,541: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:43:32,542: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:43:32,543: INFO: common:created directory at: artifacts]
+[2024-03-06 21:43:32,543: INFO: common:created directory at: artifacts/prepare_base_model]
+[2024-03-06 21:43:33,113: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-06 21:43:35,267: INFO: main:>>>>> stage Prepare base model completed <<<<<< 
+
+ x==========x]
+[2024-03-06 21:43:35,268: INFO: main:*****************]
+[2024-03-06 21:43:35,269: INFO: main:>>>>> stage Training started <<<<<<<]
+[2024-03-06 21:43:35,274: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:43:35,279: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:43:35,280: INFO: common:created directory at: artifacts]
+[2024-03-06 21:43:35,281: INFO: common:created directory at: artifacts\training]
+[2024-03-06 21:45:38,390: INFO: main:>>>>>> stage Training completed <<<<<<
+
+ x=========x]
+[2024-03-06 21:45:38,391: INFO: main:*********************]
+[2024-03-06 21:45:38,392: INFO: main:>>>>>>>> stage Evaluation stage started <<<<<<<<]
+[2024-03-06 21:45:38,395: INFO: common:yaml file: config\config.yaml loaded successfully]
+[2024-03-06 21:45:38,399: INFO: common:yaml file: params.yaml loaded successfully]
+[2024-03-06 21:45:38,400: INFO: common:created directory at: artifacts]
+[2024-03-06 21:46:17,295: INFO: common:json file saved at: scores.json]
+[2024-03-06 21:46:17,296: INFO: common:json file saved at: scores.json]
+[2024-03-06 21:46:19,464: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-03-06 21:46:20,591: INFO: builder_impl:Assets written to: C:\Users\lenovo\AppData\Local\Temp\tmpvtlipl3m\model\data\model\assets]
+[2024-03-06 21:46:36,030: INFO: dir_util:creating D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\mlruns\0\159a43c03fb54884b9b984c2041ae5f2\artifacts\model\data]
+[2024-03-06 21:46:36,032: INFO: dir_util:creating D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\mlruns\0\159a43c03fb54884b9b984c2041ae5f2\artifacts\model\data\model]
+[2024-03-06 21:46:36,035: INFO: dir_util:creating D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\mlruns\0\159a43c03fb54884b9b984c2041ae5f2\artifacts\model\data\model\assets]
+[2024-03-06 21:46:36,040: INFO: dir_util:creating D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\mlruns\0\159a43c03fb54884b9b984c2041ae5f2\artifacts\model\data\model\variables]
+[2024-03-06 21:46:36,125: INFO: main:>>>>>>>> Evaluation stage  completed successfully! <<<<<<<<<
+
+x============x]

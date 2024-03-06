@@ -58,7 +58,7 @@ def save_json(path: Path, data: dict):
     data (dict): data that needs to be stored in json format
     """
     with open(path,"w") as f: #write mode
-        json.dump(data,f,format=4) ##The `json.dump()` function is used to write JSON data to a file. The `data` parameter contains the JSON data you want to write, while `f` is the file object where you want to write the JSON data. The `format=4` parameter specifies the indentation level for formatting the JSON output. In this case, `format=4` means the JSON data will be indented with 4 spaces for readability.
+        json.dump(data,f,indent=4) ##The `json.dump()` function is used to write JSON data to a file. The `data` parameter contains the JSON data you want to write, while `f` is the file object where you want to write the JSON data. The `format=4` parameter specifies the indentation level for formatting the JSON output. In this case, `format=4` means the JSON data will be indented with 4 spaces for readability.
 
     logger.info(f"json file saved at: {path}")
 

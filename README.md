@@ -37,3 +37,27 @@ conda activate kidney
 pip install -r requirements.txt
 ```
 
+## Mlflow
+
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+#### cmd
+-mlflow ui
+
+###dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/SAMANTA1401/Kidney_Disease_Classification_Ml_Dvc.mlflow \
+MLFLOW_TRACKING_USERNAME=SAMANTA1401 \
+MLFLOW_TRACKING_PASSWORD=922b4b5be2933b85c40e93033b823635135b6510 \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/SAMANTA1401/Kidney_Disease_Classification_Ml_Dvc.mlflow 
+export MLFLOW_TRACKING_USERNAME=SAMANTA1401 
+export MLFLOW_TRACKING_PASSWORD=922b4b5be2933b85c40e93033b823635135b6510 
+```
+##### use 'set'  instead of 'export' if you are using windows or anaconda prompt

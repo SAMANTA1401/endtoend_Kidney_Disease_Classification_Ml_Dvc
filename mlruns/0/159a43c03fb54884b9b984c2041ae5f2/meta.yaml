@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPs%20Project/Kidney_Disease_Classification_Ml_Dvc/mlruns/0/159a43c03fb54884b9b984c2041ae5f2/artifacts
+end_time: 1709741796123
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 159a43c03fb54884b9b984c2041ae5f2
+run_name: aged-frog-282
+run_uuid: 159a43c03fb54884b9b984c2041ae5f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709741777880
+status: 3
+tags: []
+user_id: lenovo
