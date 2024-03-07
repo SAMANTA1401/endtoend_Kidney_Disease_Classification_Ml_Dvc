@@ -60,4 +60,9 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/SAMANTA1401/Kidney_Disease_Classi
 export MLFLOW_TRACKING_USERNAME=SAMANTA1401 
 export MLFLOW_TRACKING_PASSWORD=922b4b5be2933b85c40e93033b823635135b6510 
 ```
-##### use 'set'  instead of 'export' if you are using windows or anaconda prompt
+##### use 'set'  instead of 'export' if you are using windows or anaconda prompt use this comand every time after restarting cmd and vscode then 
+
+```bash
+dvc iniit
+dvc repro
+```
