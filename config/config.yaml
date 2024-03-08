@@ -1,4 +1,5 @@
 artifacts_root: artifacts
+model_load: model
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
@@ -15,3 +16,6 @@ prepare_base_model:
 training:
   root_dir: artifacts/training
   trained_model_path: artifacts/training/model.h5
+
+
+

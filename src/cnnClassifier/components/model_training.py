@@ -79,4 +79,8 @@ class Training:
             model = self.model
             
         )
+        # self.save_model(
+        #     path=os.path.join("model","model.h5"),
+        #     model=self.model
+        # )
 

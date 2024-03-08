@@ -15,6 +15,9 @@ class ConfigurationManager:
         self.params = read_yaml(params_filepath)
 
         create_directories([self.config.artifacts_root])
+        create_directories([self.config.model_load])
+
+
 
 
     def get_data_ingestion_config(self) -> DataIngestionConfig:
@@ -57,6 +60,7 @@ class ConfigurationManager:
         params = self.params
         training_data = os.path.join(self.config.data_ingestion.unzip_dir, "kidney_ct_scan_images")
         create_directories([Path(training.root_dir)])
+        create_directories([Path(model_load.root_dir)])
 
         training_config = TrainingConfig(
             root_dir=Path(training.root_dir),
