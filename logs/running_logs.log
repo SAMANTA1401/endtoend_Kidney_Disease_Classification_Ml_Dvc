@@ -673,3 +673,188 @@ NameError: name 'obj' is not defined
 [2024-03-07 13:06:17,921: INFO: stage_04_model_evaluation:>>>>>>>> Evaluation stage  completed successfully! <<<<<<<<<
 
 x============x]
+[2024-03-07 23:55:47,017: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.111:8080]
+[2024-03-07 23:55:47,033: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-03-07 23:56:40,481: INFO: _internal:127.0.0.1 - - [07/Mar/2024 23:56:40] "GET / HTTP/1.1" 200 -]
+[2024-03-07 23:56:40,570: INFO: _internal:127.0.0.1 - - [07/Mar/2024 23:56:40] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-07 23:56:40,827: INFO: _internal:127.0.0.1 - - [07/Mar/2024 23:56:40] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-07 23:56:40,869: INFO: _internal:127.0.0.1 - - [07/Mar/2024 23:56:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-03-08 00:04:13,131: INFO: _internal:127.0.0.1 - - [08/Mar/2024 00:04:13] "GET / HTTP/1.1" 200 -]
+[2024-03-08 00:04:13,180: INFO: _internal:127.0.0.1 - - [08/Mar/2024 00:04:13] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 00:04:13,189: INFO: _internal:127.0.0.1 - - [08/Mar/2024 00:04:13] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 00:41:29,041: INFO: _internal:127.0.0.1 - - [08/Mar/2024 00:41:29] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 00:46:34,300: INFO: _internal:127.0.0.1 - - [08/Mar/2024 00:46:34] "GET / HTTP/1.1" 200 -]
+[2024-03-08 00:46:34,366: INFO: _internal:127.0.0.1 - - [08/Mar/2024 00:46:34] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 00:46:34,375: INFO: _internal:127.0.0.1 - - [08/Mar/2024 00:46:34] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 00:51:25,594: INFO: _internal:127.0.0.1 - - [08/Mar/2024 00:51:25] "GET / HTTP/1.1" 200 -]
+[2024-03-08 00:51:25,629: INFO: _internal:127.0.0.1 - - [08/Mar/2024 00:51:25] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 00:51:25,634: INFO: _internal:127.0.0.1 - - [08/Mar/2024 00:51:25] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 01:18:10,591: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:18:10] "GET / HTTP/1.1" 200 -]
+[2024-03-08 01:18:10,658: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:18:10] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 01:18:10,671: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:18:10] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 01:19:07,351: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:07] "GET / HTTP/1.1" 200 -]
+[2024-03-08 01:19:07,388: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:07] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 01:19:07,397: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:07] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 01:19:08,329: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:08] "GET / HTTP/1.1" 200 -]
+[2024-03-08 01:19:08,362: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:08] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 01:19:08,367: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:08] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 01:19:09,860: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:09] "GET / HTTP/1.1" 200 -]
+[2024-03-08 01:19:09,906: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:09] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 01:19:09,911: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:09] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 01:19:13,248: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:13] "GET / HTTP/1.1" 200 -]
+[2024-03-08 01:19:13,322: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:13] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 01:19:13,329: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:19:13] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 01:19:50,240: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.111:8080]
+[2024-03-08 01:19:50,241: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-03-08 01:20:22,603: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.111:8080]
+[2024-03-08 01:20:22,604: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-03-08 01:20:45,085: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:20:45] "GET / HTTP/1.1" 200 -]
+[2024-03-08 01:21:08,048: ERROR: app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\app.py", line 37, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\prediction.py", line 26, in predict
+    prediction == 'Normal'
+    ^^^^^^^^^^
+NameError: name 'prediction' is not defined
+[2024-03-08 01:21:08,074: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:21:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-08 01:23:06,863: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:23:06] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-03-08 01:24:02,708: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:24:02] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-03-08 01:34:54,051: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:34:54] "GET / HTTP/1.1" 200 -]
+[2024-03-08 01:35:49,847: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.111:8080]
+[2024-03-08 01:35:49,847: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-03-08 01:36:16,271: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:36:16] "GET / HTTP/1.1" 200 -]
+[2024-03-08 01:36:25,849: ERROR: app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\kidneyenv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\app.py", line 37, in predictRoute
+    result = clApp.classifier.predict()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\MLOPs Project\Kidney_Disease_Classification_Ml_Dvc\src\cnnClassifier\pipeline\prediction.py", line 26, in predict
+    prediction = 'Normal'
+    ^^^^^^^^^^
+NameError: name 'prediction' is not defined
+[2024-03-08 01:36:25,853: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:36:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-08 01:46:53,040: INFO: _internal:127.0.0.1 - - [08/Mar/2024 01:46:53] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
+[2024-03-08 09:16:41,746: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.111:8080]
+[2024-03-08 09:16:41,749: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-03-08 09:17:22,801: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:17:22] "GET / HTTP/1.1" 200 -]
+[2024-03-08 09:17:41,590: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:17:41] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:19:22,729: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:19:22] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:19:27,599: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:19:27] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:19:51,248: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:19:51] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:19:53,565: WARNING: polymorphic_function:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000209A82C2DE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-03-08 09:19:53,570: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:19:53] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:19:55,009: WARNING: polymorphic_function:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000209A8A0E2A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-03-08 09:19:55,013: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:19:55] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:19:56,315: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:19:56] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:20:19,416: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:20:19] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:20:20,925: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:20:20] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:25:38,426: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:25:38] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:26:15,457: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:26:15] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:26:17,808: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:26:17] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:29:58,504: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:29:58] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:30:15,189: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:30:15] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:31:54,179: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:31:54] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:33:40,621: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:33:40] "GET / HTTP/1.1" 200 -]
+[2024-03-08 09:34:20,306: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:34:20] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:35:04,588: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:35:04] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:35:40,861: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:35:40] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:36:22,741: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:36:22] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:36:51,872: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:36:51] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 09:37:21,510: INFO: _internal:127.0.0.1 - - [08/Mar/2024 09:37:21] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 10:17:18,971: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.111:8080]
+[2024-03-08 10:17:18,986: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-03-08 10:17:25,737: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:17:25] "GET / HTTP/1.1" 200 -]
+[2024-03-08 10:17:25,770: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:17:25] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 10:17:25,778: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:17:25] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 10:17:25,877: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:17:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-03-08 10:20:11,268: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:20:11] "GET / HTTP/1.1" 200 -]
+[2024-03-08 10:20:11,337: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:20:11] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 10:20:11,344: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:20:11] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 10:20:14,549: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:20:14] "GET / HTTP/1.1" 200 -]
+[2024-03-08 10:20:14,584: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:20:14] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 10:20:14,589: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:20:14] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 10:20:49,229: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:20:49] "GET / HTTP/1.1" 200 -]
+[2024-03-08 10:20:49,269: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:20:49] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 10:20:49,278: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:20:49] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 10:21:17,803: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:21:17] "GET / HTTP/1.1" 200 -]
+[2024-03-08 10:21:17,868: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:21:17] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 10:21:17,873: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:21:17] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 10:21:18,591: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:21:18] "GET / HTTP/1.1" 200 -]
+[2024-03-08 10:21:18,626: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:21:18] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 10:21:18,631: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:21:18] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 10:21:21,749: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:21:21] "GET / HTTP/1.1" 200 -]
+[2024-03-08 10:21:21,791: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:21:21] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 10:21:21,796: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:21:21] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 10:22:43,611: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:22:43] "GET / HTTP/1.1" 200 -]
+[2024-03-08 10:22:43,684: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:22:43] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 10:22:43,694: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:22:43] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 10:22:45,620: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:22:45] "GET / HTTP/1.1" 200 -]
+[2024-03-08 10:22:45,658: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:22:45] "[33mGET /index.css HTTP/1.1[0m" 404 -]
+[2024-03-08 10:22:45,664: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:22:45] "[33mGET /index.js HTTP/1.1[0m" 404 -]
+[2024-03-08 10:23:36,772: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.111:8080]
+[2024-03-08 10:23:36,775: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-03-08 10:23:36,786: INFO: _internal: * Restarting with stat]
+[2024-03-08 10:23:41,571: WARNING: _internal: * Debugger is active!]
+[2024-03-08 10:23:41,581: INFO: _internal: * Debugger PIN: 598-118-036]
+[2024-03-08 10:24:39,156: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:24:39] "GET / HTTP/1.1" 200 -]
+[2024-03-08 10:24:50,603: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:24:50] "POST /predict HTTP/1.1" 200 -]
+[2024-03-08 10:25:13,741: INFO: _internal:127.0.0.1 - - [08/Mar/2024 10:25:13] "POST /predict HTTP/1.1" 200 -]
