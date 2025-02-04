@@ -1,5 +1,9 @@
 # Kidney_Disease_Classification_Ml_Dvc
 
+### Classification of Normal and Tumour kidney from ct scan images with vgg16 model
+
+
+
 ##workflows
 
 1. update config.yaml
@@ -47,20 +51,7 @@ pip install -r requirements.txt
 ###dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/SAMANTA1401/Kidney_Disease_Classification_Ml_Dvc.mlflow \
-MLFLOW_TRACKING_USERNAME=SAMANTA1401 \
-MLFLOW_TRACKING_PASSWORD=922b4b5be2933b85c40e93033b823635135b6510 \
-python script.py
 
-Run this to export as env variables:
-
-```bash
-
-export MLFLOW_TRACKING_URI=https://dagshub.com/SAMANTA1401/Kidney_Disease_Classification_Ml_Dvc.mlflow 
-export MLFLOW_TRACKING_USERNAME=SAMANTA1401 
-export MLFLOW_TRACKING_PASSWORD=922b4b5be2933b85c40e93033b823635135b6510 
-```
-##### use 'set'  instead of 'export' if you are using windows or anaconda prompt use this comand every time after restarting cmd and vscode then 
 
 ###dvc cmd
 ```bash
@@ -102,7 +93,7 @@ dvc dag
 2. AmazonEC2FullAccess
 
 ### 3.  Create ECR repo to store/save docker image
-- Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+- Save the URI:987001014426.dkr.ecr.eu-north-1.amazonaws.com/kidney
 
 ### 4.Create EC2 machine (Ubuntu)
 ### 5.Open EC2 and Install docker in EC2 Machine:
@@ -139,5 +130,5 @@ AWS_REGION = us-east-1
 
 AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
-ECR_REPOSITORY_NAME = simple-app
+ECR_REPOSITORY_NAME = kidney
 ```
